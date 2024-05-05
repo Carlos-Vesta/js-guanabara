@@ -3,6 +3,6 @@
 var numero1 = Number(prompt('Digite o primeiro número: '));
 var numero2 = Number(prompt('Digite o segundo número: '));
 
-var soma = numero1 - numero2;
+var subtracao = numero1 - numero2;
 
-alert(`A subração de ${numero1} e ${numero2} é igual a ${soma}`);
+alert(`A subração de ${numero1} e ${numero2} é igual a ${subtracao}`);
