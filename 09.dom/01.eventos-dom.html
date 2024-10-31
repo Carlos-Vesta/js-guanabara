@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <link rel="stylesheet" href="css/01.eventos-dom.css">
+</head>
+<body>
+    <h1>Eventos DOM</h1>
+
+    <h3>Alguns dos eventos que podem ser disparados com o movimento do Mouse</h3>
+    <ul>
+        <li>mouseenter</li>
+        <li>mouseout</li>
+        <li>mousemove</li>
+        <li>click</li>
+        <li>mouseup</li>
+        <li>mousedown</li>
+    </ul>
+
+    <p>Os eventos podem ser configurados na parte HTML ou directo no JAVASCRIPT!</p>
+
+    <!-- Primeira DIV -->
+    <h2>1 - Eventos DOM no HTML</h2>
+
+    <div id="div-area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        Interaja...
+    </div>
+
+    <!-- Segunda DIv -->
+    <h2>2 - Eventos DOM directo no JAVASCRIPT com EventListener</h2>
+
+    <!-- Nesta DIV não teremos as funções como ATRIBUTOS -->
+    <div id="div2-area">
+        Interaja...
+    </div>
+    
+
+    <script src="js/01.eventos-dom.js"></script>
+</body>
+</html>

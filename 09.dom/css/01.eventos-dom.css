@@ -1,0 +1,18 @@
+#div-area {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    text-align: center;
+    line-height: 200px;
+    color: #ffffff;
+}
+
+
+#div2-area {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    text-align: center;
+    line-height: 200px;
+    color: #000000;
+}
