@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="css/02.verificar-idade.css">
+</head>
+<body>
+    <main>
+        <h1>Verificador de Idade</h1>
+
+        <!-- formulário -->
+        <form class="p-mensagem">
+           <label for="input-ano">
+                Ano de Nascimento:
+                <input type="text" id="input-ano" class="input-ano" placeholder="Digite o ano do seu nascimento aqui!">
+           </label>
+
+           <fieldset>
+                <legend>Sexo / Género</legend>
+
+                <label for="input-masculino">
+                    <input type="radio" id="input-masculino" class="input-masculino" name="masculino-feminino" checked>Masculino
+                </label>
+
+                <label for="input-feminino">
+                    <input type="radio" id="input-feminino" class="input-feminino" name="masculino-feminino">Feminino
+                </label>
+           </fieldset>
+
+           <input type="button" class="input-button" value="Enviar">
+            
+        </form>
+
+        <!-- Visualizar Resultado -->
+        <div class="div-imagem">
+            <p class="erro-alert">O Resultado vem aqui!</p>
+        </div>
+        
+        <footer>
+            <p>&copy; 2024 - Todos os direitos reservados <br><a href="#">Carlos Fernandes Vesta</a></p>
+        </footer>
+    </main>
+
+   
+
+    <script src="js/02.verificar-idade.js"></script>
+</body>
+</html>
