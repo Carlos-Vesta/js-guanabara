@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #dddddd;
+}
+
+main {
+    width: 600px;
+    background-color: #ffffff;
+    margin: 5em auto;
+    padding: 2em;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0.8em 0;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.8em 0;
+    display: inline-block;
+}
+
+.input-adicionar, .input-finalizar {
+    width: 49%;
+    margin: 0.8em auto;
+    padding: 0.8em;
+    cursor: pointer;
+    border: none;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.input-adicionar {
+    background-color: #945f8c;
+}
+
+.input-adicionar:hover {
+    background-color: #cb93c1;
+}
+
+.input-finalizar {
+    background-color: #007f73;
+}
+
+.input-finalizar:hover {
+    background-color: #59b47a;
+}
+
+select {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1.1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* option {
+    text-align: right;
+} */
+
+.mostrar-resultado {
+    text-align: justify;
+    margin: 2em 0;
+}
+
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: brown;
+    text-decoration: underline;
+}
