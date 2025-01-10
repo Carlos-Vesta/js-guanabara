@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprovação de Empréstimo</title>
+    <link rel="stylesheet" href="css/13.aprovacao-emprestimo.css">
+</head>
+<body>
+    <main>
+        <h1>Aprovação de Empréstimo</h1>
+
+        <p class="ps">O valor do Empréstimo deve ser menor ou igual a 30% do valor do seu salário.</p>
+
+        <form action="">
+            
+            <div class="div-flex">
+                <div class="div-flexChild">
+                    <label for="input-salario">Salário:
+                        <input type="text" id="input-salario" name="input-salario">
+                    </label>
+                </div>
+                
+                <fieldset>
+                    <legend for="input-emprestimo">Valor do Empréstimo</legend>
+                        <input type="text" id="input-emprestimo" name="input-emprestimo">
+                </fieldset>
+            </div>
+        
+
+            <input type="button" class="input-button" value="Aprovar Empréstimo">
+        </form>
+
+        <div class="div-resultado">
+            <!-- <p>O resultado virá aqui!</p> -->
+            <p class="contador-resulatdo"></p>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 - Todos os direitos reservados <br><a href="#">Carlos Fernandes Vesta</a></p>
+        </footer>
+    </main>
+    <script src="js/13.aprovacao-emprestimo.js"></script>
+</body>
+</html>
