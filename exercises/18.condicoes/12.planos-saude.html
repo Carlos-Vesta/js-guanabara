@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planos de Saúde</title>
+    <link rel="stylesheet" href="css/12.planos-saude.css">
+</head>
+<body>
+    <main>
+        <h1>Planos de Saúde</h1>
+
+        <p class="ps">Digite a sua idade e sexo, para determinar o valor do seu plano de saúde</p>
+
+        <form action="">
+            
+            <div class="div-flex">
+                <div class="div-flexChild">
+                    <label for="input-idade">Idade:
+                        <input type="text" id="input-idade" name="input-idade">
+                    </label>
+                </div>
+    
+                
+                <fieldset>
+                    <legend>Escolha o sexo</legend>
+    
+                    <label for="masculino">
+                        <input type="radio" id="masculino" name="masculino-feminino" value="Masculino"> Masculino
+                    </label>
+        
+                    <label for="feminino">
+                        <input type="radio" id="feminino" name="masculino-feminino" value="Feminino"> Feminino
+                    </label>
+                </fieldset>
+            </div>
+        
+
+            <input type="button" class="input-button" value="Verificar plano">
+        </form>
+
+        <div class="div-resultado">
+            <!-- <p>O resultado virá aqui!</p> -->
+            <p class="contador-resulatdo"></p>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 - Todos os direitos reservados <br><a href="#">Carlos Fernandes Vesta</a></p>
+        </footer>
+    </main>
+    <script src="js/12.planos-saude.js"></script>
+</body>
+</html>
