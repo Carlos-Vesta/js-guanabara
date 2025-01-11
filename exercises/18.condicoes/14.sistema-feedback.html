@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Feedback</title>
+    <link rel="stylesheet" href="css/14.sistema-feedback.css">
+</head>
+<body>
+    <main>
+        <h1>Sistema de Feedback</h1>
+
+        <p class="ps">Escolha uma nota para classificar o agente</p>
+
+        <form action="">
+        
+            <fieldset>
+                <legend for="input-emprestimo">Notas</legend>
+                    
+                <label for="nota-1">
+                    <input type="radio" id="nota-1" name="notas" value="1"> 1
+                </label>
+
+                <label for="nota-2">
+                    <input type="radio" id="nota-2" name="notas" value="2"> 2
+                </label>
+
+                <label for="nota-3">
+                    <input type="radio" id="nota-3" name="notas" value="3"> 3
+                </label>
+
+                <label for="nota-4">
+                    <input type="radio" id="nota-4" name="notas" value="4"> 4
+                </label>
+
+                <label for="nota-5">
+                    <input type="radio" id="nota-5" name="notas" value="5"> 5
+                </label>
+            </fieldset>
+            
+                
+            <input type="button" class="input-button" value="Ver Feedback">
+        </form>
+
+        <div class="div-resultado">
+            <!-- <p>O resultado virá aqui!</p> -->
+            <p class="contador-resulatdo"></p>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 - Todos os direitos reservados <br><a href="#">Carlos Fernandes Vesta</a></p>
+        </footer>
+    </main>
+    <script src="js/14.sistema-feedback.js"></script>
+</body>
+</html>
