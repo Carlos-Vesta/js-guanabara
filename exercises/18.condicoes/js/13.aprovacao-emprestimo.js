@@ -26,31 +26,38 @@ function aprovacaoEmprestimo() {
     if (wage.length === 0) {
         viewResult.innerHTML = `O campo <strong>salário</strong> não deve estar vazio.`;
         viewResult.style.color = "#FF0000";
+        viewResult.style.textAlign = "center";
         return;
 
     } else if (isNaN(Number(wage))) {
         viewResult.innerHTML = `O valor do <strong>salário</strong> deve ser um número.`;
         viewResult.style.color = "#FF0000";
+        viewResult.style.textAlign = "center";
         return;
 
     } else if (Number(wage) <= 0) {
         viewResult.innerHTML = `O valor do <strong>salário</strong> deve ser maior que <strong>zero (0)</strong>.`;
         viewResult.style.color = "#FF0000";
+        viewResult.style.textAlign = "center";
+        return;
 
     // Validação do input Valor do Empréstimo
     } else if (loanAmount.length === 0) {
         viewResult.innerHTML = `O campo <strong>valor do empréstimo</strong> não deve estar vazio.`;
         viewResult.style.color = "#FF0000";
+        viewResult.style.textAlign = "center";
         return;
 
     } else if (isNaN(Number(loanAmount))) {
         viewResult.innerHTML = `O valor do <strong>empréstimo</strong> deve ser um número.`;
         viewResult.style.color = "#FF0000";
+        viewResult.style.textAlign = "center";
         return;
 
     } else if (Number(loanAmount) <= 0) {
         viewResult.innerHTML = `O valor do <strong>empréstimo</strong> deve ser maior que <strong>zero (0)</strong>.`;
         viewResult.style.color = "#FF0000";
+        viewResult.style.textAlign = "center";
         return;
     }
 
