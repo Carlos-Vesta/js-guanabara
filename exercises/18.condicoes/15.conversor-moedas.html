@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="css/15.conversor-moedas.css">
+</head>
+<body>
+    <main>
+        <h1>Conversor de Moedas</h1>
+
+        <p class="ps">Câmbio de moedas do dia 13.01.2025</p>
+
+        <form action="">
+           <div class="formDivChildFlex">
+                <div>
+                    <input type="text" id="moeda-metical" name="moeda-metical" placeholder="Valor em Metical">
+                </div>
+
+                <fieldset>
+                    <legend for="input-emprestimo">Moedas</legend>
+                        
+                    <label for="moeda-dolar">
+                        <input type="radio" id="moeda-dolar" name="moedas" value="Dólar"> DÓLAR <strong>&#36;</strong>
+                    </label>
+
+                    <label for="moeda-euro">
+                        <input type="radio" id="moeda-euro" name="moedas" value="Euro"> EURO <strong>&#8364;</strong>
+                    </label>
+
+                    <label for="moeda-libra">
+                        <input type="radio" id="moeda-libra" name="moedas" value="Libra"> LIBRA <strong>&#163;</strong>
+                    </label>
+                </fieldset>
+           </div>
+            
+                
+            <input type="button" class="input-button" value="Converter Moeda">
+        </form>
+
+        <div class="div-resultado">
+            <!-- <p>O resultado virá aqui!</p> -->
+            <p class="contador-resulatdo"></p>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 - Todos os direitos reservados <br><a href="#">Carlos Fernandes Vesta</a></p>
+        </footer>
+    </main>
+    <script src="js/15.conversor-moedas.js"></script>
+</body>
+</html> 
