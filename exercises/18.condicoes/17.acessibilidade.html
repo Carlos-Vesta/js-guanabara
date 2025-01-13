@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessibilidade</title>
+    <link rel="stylesheet" href="css/17.acessibilidade.css">
+</head>
+<body>
+    <main>
+        <h1>Acessibilidade</h1>
+
+        <!-- <p class="ps">Escolha uma nota para classificar o agente</p> -->
+
+        <form action="">
+        
+            <fieldset>
+                <legend for="input-emprestimo">Tem alguma deficiência?</legend>
+                    
+                <label for="sim">
+                    <input type="radio" id="sim" name="deficiência" value="Sim"> Sim
+                </label>
+
+                <label for="nao">
+                    <input type="radio" id="nao" name="deficiência" value="Não"> Não
+                </label>
+            </fieldset>
+            
+                
+            <input type="button" class="input-button" value="Ver Messagem">
+        </form>
+
+        <div class="div-resultado">
+            <!-- <p>O resultado virá aqui!</p> -->
+            <p class="contador-resulatdo"></p>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 - Todos os direitos reservados <br><a href="#">Carlos Fernandes Vesta</a></p>
+        </footer>
+    </main>
+    <script src="js/17.acessibilidade.js"></script>
+</body>
+</html>
