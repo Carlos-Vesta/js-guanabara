@@ -25,7 +25,7 @@ document.querySelector(".input-button").addEventListener("click", () => {
         return;
 
     } else if (isNaN(userNumConverted) || userNumConverted <= 0) {
-        viewResult.innerHTML = `Erro - digite apenas números interiros positivos.`
+        viewResult.innerHTML = `Erro - digite apenas números inteiros positivos.`
         viewResult.style.color = `#FF0000`;
         return;
     }
