@@ -12,7 +12,7 @@ function inverterString() {
     // Inicialização das variáveis
     let userString = document.querySelector("#input-string").value.trim();
     let viewResult = document.querySelector(".div-resultado");
-    let reversedString = "";
+    let reversedString = ""; // Inicializa uma string vazia para armazenar o string invertida
 
 
 
