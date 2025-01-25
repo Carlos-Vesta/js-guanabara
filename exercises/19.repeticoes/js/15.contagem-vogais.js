@@ -13,9 +13,11 @@ function contarVogais() {
     let texto = document.querySelector("#input-string").value.trim();
     let viewResult = document.querySelector(".div-resultado");
 
-    const contador = ["a", "e", "i", "o", "u"];
-    let vogais = 0;
 
+    let contador = 0;
+    const vogais = ["a", "e", "i", "o", "u", "á", "é", "í", "ó", "ú", "ã", "õ", "ê"];
+    const vogaisEncontradas = [];
+    
 
     // Limpa o campo do texto
     viewResult.innerHTML = ``;
@@ -29,12 +31,14 @@ function contarVogais() {
 
 
     // Loop para encontrar as vogais
-    for (let i = 0; i < texto.legth; i++) {
-        if (vogais.includes(texto[i])) {
+    for (let i = 0; i < texto.length; i++) {
+        if (vogais.includes(texto[i].toLowerCase())) {
             contador++;
+            vogaisEncontradas.push(texto[i]);
         }
 
     }
 
-    viewResult.innerHTML = `${contador}`;
+    viewResult.innerHTML = `Total de vogais: ${contador} <br>`;
+    viewResult.innerHTML += `Vogais encontradas (Únicas): ${vogaisEncontradas.join(", ")}`;
 }
