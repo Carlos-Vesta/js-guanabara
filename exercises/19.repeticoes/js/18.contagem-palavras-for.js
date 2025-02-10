@@ -13,7 +13,7 @@ document.querySelector(".input-button").addEventListener("click", contarPalavras
 function contarPalavras() {
     
     // Inicialização das variáveis
-    let userString = document.querySelector("#input-palavra").value.trim();
+    let userString = document.querySelector("#input-palavra").value;
     let viewResult = document.querySelector(".div-resultado");
     let saveStrings = [];
 
@@ -25,11 +25,13 @@ function contarPalavras() {
     if (userString.length === 0) { 
         viewResult.innerHTML = `Erro - O campo está vazio`;
         viewResult.style.color = `#FF0000`;
+        return;
 
     // Verifica se é um Número
     } else if (!isNaN(userString)) {
         viewResult.innerHTML = `O campo de ser preenchido com texto`;
         viewResult.style.color = `#FF0000`;
+        return;
     }
 
 
